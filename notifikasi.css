@@ -1,0 +1,32 @@
+/* Notifikasi Styles */
+.content {
+  text-align: center;
+  background-color: var(--secondary);
+  padding: 20px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.content .box {
+  margin-top: 20px;
+}
+
+.content .box i {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.content .box p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+
+/* Warna untuk status */
+.status-approved {
+  color: #4caf50; /* Hijau */
+}
+
+.status-rejected {
+  color: #ff4d4d; /* Merah */
+}
